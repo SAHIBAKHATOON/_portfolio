@@ -236,7 +236,7 @@ function Experience() {
     {
       title: "Frontend Developer",
       company: "Alphabuy Private Limited (Remote)",
-      date: "Nov 2024 -  Jan 2024",
+      date: "Nov 2024 -  Jan 2025",
       color: "#3ecf8e",
       bullets: [
         "Developed a comprehensive admin dashboard for e-commerce product management with dynamic data visualization and advanced pagination system.",
