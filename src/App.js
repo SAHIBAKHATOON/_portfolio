@@ -45,7 +45,7 @@ function Sidebar({ isMobileMenuOpen, setIsMobileMenuOpen }) {
             <i className="fas fa-user-friends"></i>
             <div className="tooltip">Profile</div>
           </div>
-          <div className="icon-wrapper" onClick={() => window.open('https://docs.google.com/document/d/13VOb0QdC9aR8H3qq2RbKiRtrLzGCfFcZ/edit#heading=h.1fob9te', '_blank')}>
+          <div className="icon-wrapper" onClick={() => window.open('https://docs.google.com/document/d/1Jv_dXgueN2MB2Ql7a0pYDZF5NIvLdcanr7ywUKt7dOA/edit?tab=t.0', '_blank')}>
             <i className="fas fa-file-alt"></i>
             <div className="tooltip">Resume</div>
           </div>
@@ -77,7 +77,7 @@ function Profile({ onTabChange, activeTab }) {
       <div className="subtitle">Human Software Engineer</div>
       <div className="profile-actions">
         <button className="btn btn-green" onClick={() => navigate('/portfolio')}>View Portfolio</button>
-        <button className="btn btn-pink" onClick={() => window.open('https://docs.google.com/document/d/13VOb0QdC9aR8H3qq2RbKiRtrLzGCfFcZ/edit#heading=h.1fob9te', '_blank')}>View Resume</button>
+        <button className="btn btn-pink" onClick={() => window.open('https://docs.google.com/document/d/1Jv_dXgueN2MB2Ql7a0pYDZF5NIvLdcanr7ywUKt7dOA/edit?tab=t.0', '_blank')}>View Resume</button>
       </div>
       <div className="bio">
         <b>SHORT BIO</b>
@@ -156,19 +156,18 @@ function Skills() {
         { name: "Next.js", icon: "⚡", color: "#FFD700" },
         { name: "Tailwind CSS", icon: "🎯", color: "#FFD700" },
         { name: "Bootstrap", icon: "B", color: "#FFD700" },
-        { name: "XML", icon: "</>", color: "#FFD700" }
+        { name: "XML", icon: "</>", color: "#FFD700" },
+        { name: "Node.JS", icon: <i className="fab fa-node-js" style={{ color: "#68A063" }}></i>, color: "#FFD700" }
       ]
     },
-    
     {
       title: "Tools & Others",
       skills: [
-        { name: "Git", icon: "📦", color: "#4ECDC4" },
+        { name: "Git", icon: <i className="fab fa-git-alt" style={{ color: "#F05032" }}></i>, color: "#4ECDC4" },
         { name: "VS Code", icon: "💻", color: "#4ECDC4" },
         { name: "Figma", icon: "🎨", color: "#4ECDC4" },
         { name: "Cursor AI", icon: "🖱️", color: "#4ECDC4" },
-        { name: "npm", icon: "📦", color: "#4ECDC4" },
-        { name: "GitHub", icon: "🐙", color: "#4ECDC4" }
+        { name: "GitHub", icon: <i className="fab fa-github" style={{ color: "#333" }}></i>, color: "#4ECDC4" }
       ]
     }
   ];

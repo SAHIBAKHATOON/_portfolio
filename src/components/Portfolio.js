@@ -75,11 +75,79 @@ function Portfolio() {
       tech: "HTML  | CSS3 | JavaScript",
       client: "Full-time Project",
       category: "Web-App",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop&crop=center", // Different code/data themed image
+      // Different code/data themed image
       githubUrl: "",
+      image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=250&fit=crop&crop=center",
       liveUrl: "https://www.snickr.in/",
       featured: true
-    },
+      },
+      {
+        id: 7,
+        title: "Password Generator",
+        description: "A simple and secure password generator app that allows users to create strong, random passwords with customizable options such as length and character types. Built with React and Hooks for a responsive UI.",
+        role: "Frontend Developer",
+        tech: "React.JS, Hooks",
+        client: "Personal Project",
+        category: "Web-App",
+        image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop&crop=center", // Different code/data themed image
+
+         // Different code/data themed image
+          githubUrl: "https://github.com/SAHIBAKHATOON/Password-generator",
+          liveUrl: "https://password-generator-five-wine.vercel.app/",
+          featured: false
+            },
+
+            {
+            id: 8,
+            title: "Recipe-App",
+            description: "A recipe app that allows users to search for recipes, view detailed instructions, and explore ingredients. Built with React and integrates with a public recipes API for real-time data.",
+            role: "Frontend Developer",
+            tech: "CSS | React.JS | API",
+            client: "Personal Project",
+            category: "Web-App",
+            image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=250&fit=crop&crop=center",
+            // Recipe/food themed image
+            githubUrl: "https://github.com/SAHIBAKHATOON/Recepi-app",
+            liveUrl: "https://recepi-app.vercel.app/",
+            featured: true
+            },
+
+            {
+              id: 9,
+              title: "To-do app",
+              description: "A simple to-do app that allows users to create, manage, and delete tasks. Built with React and local storage for data persistence.",
+              role: "Frontend Developer",
+              tech: "CSS | React.JS | Local Storage",
+              client: "Personal Project",
+              category: "Web-App",
+              image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=250&fit=crop&crop=center", // To-do list themed image
+                // To-do list themed image
+                githubUrl: "https://github.com/SAHIBAKHATOON/Todo-list",
+                liveUrl: "https://todo-list-gules-two.vercel.app/",
+                featured: true
+                },
+
+                {
+                id: 10,
+                title: "Stop Watch App",
+                description: "A digital stopwatch application that allows users to start, stop, and reset the timer. Built with React, featuring accurate time tracking and a clean, responsive UI.",
+                role: "Frontend Developer",
+                tech: "HTML | CSS|  JAVASCRIPT",
+                client: "Personal Project",
+                category: "Web-App",
+                image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop&crop=center", // Stopwatch/code themed image
+                githubUrl: "https://github.com/SAHIBAKHATOON/stop-watch",
+                liveUrl: "https://sahibakhatoon.github.io/Stop-watch/",
+                featured: false
+                },
+               
+            
+               
+            
+       
+    
+     
+    
     
     
     

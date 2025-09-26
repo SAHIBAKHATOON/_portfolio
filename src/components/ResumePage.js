@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 function ResumePage() {
-  const resumeUrl = 'https://docs.google.com/document/d/13VOb0QdC9aR8H3qq2RbKiRtrLzGCfFcZ/edit#heading=h.1fob9te';
+  const resumeUrl = 'https://docs.google.com/document/d/1Jv_dXgueN2MB2Ql7a0pYDZF5NIvLdcanr7ywUKt7dOA/edit?tab=t.0';
 
   useEffect(() => {
     // Automatically redirect to the Google Docs resume
