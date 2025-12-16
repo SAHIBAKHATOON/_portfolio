@@ -1616,7 +1616,7 @@ body {
   }
   
   .tab {
-    padding: 0.8rem 1.5rem;
+    /* padding: 0.8rem 1.5rem; */
     border-radius: 8px;
     border: 1px solid #444a54;
   }
